@@ -1,30 +1,55 @@
-# React + TypeScript + Vite
+# Desafio Frontend - Smart Fit
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Smart Fit](./src/assets/images/svg/logo.svg)
 
-Currently, two official plugins are available:
+Este repositório contém a solução para o desafio de [Front-end da Smart Fit](https://github.com/bioritmo/front-end-code-challenge-smartsite/tree/master) desenvolvido durante o vídeo em meu canal. Eu utilizei o framework Angular para desenvolver a aplicação, e você pode assistir o vídeo onde resolvi o desafio em meu canal [aqui](https://www.youtube.com/watch?v=ozZXMkp8MnQ).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📖 Sobre o desafio
 
-## Expanding the ESLint configuration
+A Smart Fit, atuando no segmento de fitness, passou por várias mudanças durante a pandemia. Foi necessário desenvolver uma página para buscar unidades abertas ou fechadas para consulta e reserva. 
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Neste desafio, foi implementado as seguintes funcionalidades de acordo com as regras de negócio definidas:
 
-- Configure the top-level `parserOptions` property like this:
+### Funcionalidades
+[x] Carrega unidades através do arquivo JSON [locations.json](https://test-frontend-developer.s3.amazonaws.com/data/locations.json) utilizando o método `GET`.
+[x] Busca por todas as unidades.
+[x] Busca por unidades com filtros.
+[x] Previsão do número de resultados encontrados.
+[x] Listagem das unidades encontradas após a busca.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+/* ### Regras de negócio
+- Filtra unidades abertas ou fechadas.
+- Filtra unidades por período de funcionamento.
+- Exibe a mensagem "Nenhuma unidade encontrada" quando não há resultados.
+- Valida e exibe os ícones corretos de acordo com o status da unidade. */
+
+## 🎨 Layout
+
+O layout da aplicação foi baseado nos materiais disponibilizados, incluindo designs para dispositivos móveis e desktop, cores, imagens e fontes. A fidelidade ao layout proposto foi mantida, e a aplicação é responsiva para dispositivos móveis, tablets e desktops.
+
+## ⚙️ Como Executar
+
+Para executar a aplicação localmente, siga os passos abaixo:
+
+1. Clone este repositório:
+
+```bash
+ git clone https://github.com/biellil/challenge-smartsite-front-end.git
+  cd smartfit-frontend-challenge
+
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+2. Instale as dependências
+
+```bash
+  npm install
+```
+
+3. Inicie a aplicação
+
+```bash
+  npm start
+```
+
+## Licença
+Este projeto está sob a licença MIT. Consulte o arquivo [LICENSE](./LICENSE) para obter mais detalhes.
