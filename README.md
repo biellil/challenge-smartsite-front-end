@@ -12,16 +12,16 @@ Neste desafio, foi implementado as seguintes funcionalidades de acordo com as re
 
 ### Funcionalidades
 [x] Carrega unidades através do arquivo JSON [locations.json](https://test-frontend-developer.s3.amazonaws.com/data/locations.json) utilizando o método `GET`.
-[x] Busca por todas as unidades.
-[x] Busca por unidades com filtros.
-[x] Previsão do número de resultados encontrados.
-[x] Listagem das unidades encontradas após a busca.
+[] Busca por todas as unidades.
+[] Busca por unidades com filtros.
+[] Previsão do número de resultados encontrados.
+[] Listagem das unidades encontradas após a busca.
 
-/* ### Regras de negócio
+ ### Regras de negócio
 - Filtra unidades abertas ou fechadas.
 - Filtra unidades por período de funcionamento.
 - Exibe a mensagem "Nenhuma unidade encontrada" quando não há resultados.
-- Valida e exibe os ícones corretos de acordo com o status da unidade. */
+- Valida e exibe os ícones corretos de acordo com o status da unidade. 
 
 ## 🎨 Layout
 
