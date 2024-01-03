@@ -2,7 +2,7 @@
 
 ![Smart Fit](./src/assets/images/svg/logo.svg)
 
-Este repositório contém a solução para o desafio de [Front-end da Smart Fit](https://github.com/bioritmo/front-end-code-challenge-smartsite/tree/master) desenvolvido durante o vídeo em meu canal. Eu utilizei o framework Angular para desenvolver a aplicação, e você pode assistir o vídeo onde resolvi o desafio em meu canal [aqui](https://www.youtube.com/watch?v=ozZXMkp8MnQ).
+Este repositório contém a solução para o desafio de [Front-end da Smart Fit](https://github.com/bioritmo/front-end-code-challenge-smartsite/tree/master) desenvolvido durante o vídeo em meu canal. Eu utilizei o framework React para desenvolver a aplicação
 
 ## 📖 Sobre o desafio
 
@@ -11,7 +11,7 @@ A Smart Fit, atuando no segmento de fitness, passou por várias mudanças durant
 Neste desafio, foi implementado as seguintes funcionalidades de acordo com as regras de negócio definidas:
 
 ### Funcionalidades
-[x] Carrega unidades através do arquivo JSON [locations.json](https://test-frontend-developer.s3.amazonaws.com/data/locations.json) utilizando o método `GET`.
+[] Carrega unidades através do arquivo JSON [locations.json](https://test-frontend-developer.s3.amazonaws.com/data/locations.json) utilizando o método `GET`.
 [] Busca por todas as unidades.
 [] Busca por unidades com filtros.
 [] Previsão do número de resultados encontrados.
@@ -51,5 +51,3 @@ Para executar a aplicação localmente, siga os passos abaixo:
   npm start
 ```
 
-## Licença
-Este projeto está sob a licença MIT. Consulte o arquivo [LICENSE](./LICENSE) para obter mais detalhes.
