@@ -35,19 +35,19 @@ Para executar a aplicação localmente, siga os passos abaixo:
 
 ```bash
  git clone https://github.com/biellil/challenge-smartsite-front-end.git
-  cd smartfit-frontend-challenge
+  cd challenge-smartsite-front-end
 
 ```
 
 2. Instale as dependências
 
 ```bash
-  npm install
+  npm ci
 ```
 
 3. Inicie a aplicação
 
 ```bash
-  npm start
+ turbo dev
 ```
 
