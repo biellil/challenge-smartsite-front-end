@@ -36,7 +36,7 @@ export const Subtitle = styled.div`
 `
 export const BorderContainer = styled.div`
   width: 11%;
-  border-bottom: 15px solid black;
+  border-bottom: 12px solid black;
   padding-bottom: 8px;
   margin-top: 20px;
 `
