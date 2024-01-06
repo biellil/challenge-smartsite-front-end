@@ -38,5 +38,5 @@ export const BorderContainer = styled.div`
   width: 11%;
   border-bottom: 10px solid black;
   padding-bottom: 8px;
-  margin-top: 20px;
+  margin-top: 14px;
 `
