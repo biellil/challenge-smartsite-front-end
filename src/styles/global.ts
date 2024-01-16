@@ -1,14 +1,12 @@
 import { createGlobalStyle } from 'styled-components'
 
 export const GlobalStyle = createGlobalStyle`
-:root{
-    dark-grey: #333333;
-    light-grey: #808080;
-    yellow: #FFB612;
-    red: #dc0a17;
-    green: #2FC022;
-
-
+:root {
+    --dark-grey: #333333;
+    --light-grey: #808080;
+    --yellow: #FFB612;
+    --red: #dc0a17;
+    --green: #2FC022;
 }
 body {
     font-family: 'Gotham', sans-serif;
@@ -19,6 +17,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     outline: none;
+ 
   
   }
   @font-face {
