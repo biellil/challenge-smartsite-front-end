@@ -34,8 +34,9 @@ Para executar a aplicação localmente, siga os passos abaixo:
 1. Clone este repositório:
 
 ```bash
- git clone https://github.com/biellil/challenge-smartsite-front-end.git 
-
+ git clone https://github.com/biellil/challenge-smartsite-front-end.git
+```
+```bash
   cd challenge-smartsite-front-end
 
 ```
