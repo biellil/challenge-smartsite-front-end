@@ -1,4 +1,6 @@
 import hour from '../../assets/images/icon-hour.png'
+import InputComponent from '../../components/input'
+
 export function HOME() {
   return (
     <main>
@@ -12,7 +14,7 @@ export function HOME() {
         <form action="/submit-form" method="post">
           <div>
             <label>
-              <input type="radio" name="periodo" value="manha" />
+              <InputComponent type="radio" name="periodo" value="manha" />
               Manhã
             </label>
             <span>06:00 às 12:00</span>
@@ -20,7 +22,7 @@ export function HOME() {
 
           <div>
             <label>
-              <input type="radio" name="periodo" value="tarde" />
+              <InputComponent type="radio" name="periodo" value="tarde" />
               Tarde
             </label>
             <span>12:01 às 18:00</span>
@@ -28,7 +30,7 @@ export function HOME() {
 
           <div>
             <label>
-              <input type="radio" name="periodo" value="noite" />
+              <InputComponent type="radio" name="periodo" value="noite" />
               Noite
             </label>
             <span>18:01 às 23:00</span>
@@ -36,22 +38,24 @@ export function HOME() {
 
           <div>
             <label>
-              <input type="checkbox" name="unidades-fechadas" />
+              <InputComponent type="checkbox" name="unidades-fechadas" />
               Exibir unidades fechadas
             </label>
             <span>Resultados encontrados: 0</span>
           </div>
 
           <div>
-            <input
+            <InputComponent
               type="submit"
-              className="button button-primary"
+              // className="button button-primary"
               value="ENCONTRAR UNIDADE"
+              name="ENCONTRAR"
             />
-            <input
+            <InputComponent
               type="reset"
-              className="button button-clear"
+              // className="button button-clear"
               value="LIMPAR"
+              name="LIMPAR"
             />
           </div>
         </form>
