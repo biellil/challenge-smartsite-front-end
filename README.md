@@ -2,7 +2,7 @@
 
 ![Smart Fit](./src/assets/images/logo.svg)
 
-Este repositório contém a solução para o desafio de [Front-end da Smart Fit](https://github.com/bioritmo/front-end-code-challenge-smartsite/tree/master) desenvolvido durante o vídeo em meu canal. Eu utilizei o framework React para desenvolver a aplicação
+Este repositório contém a solução para o desafio de [Front-end da Smart Fit](https://github.com/bioritmo/front-end-code-challenge-smartsite/tree/master) Eu utilizei o framework React para desenvolver a aplicação
 
 ## 📖 Sobre o desafio
 
