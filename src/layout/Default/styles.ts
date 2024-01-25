@@ -8,9 +8,15 @@ export const LayoutContainer = styled.div`
   .container {
     width: 100%;
     max-width: 70rem;
-    margin-right: 1rem;
-    margin-left: 1rem;
+    margin-right: auto;
+    margin-left: auto;
     padding: 1rem 0.5rem;
     margin-bottom: 1rem;
+  }
+  @media (max-width: 600px) {
+    .container {
+      width: 98%;
+      max-width: 68rem;
+    }
   }
 `
