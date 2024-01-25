@@ -1,32 +1,42 @@
 import React from 'react'
+import { InputComponentTs } from './styles'
 
 interface InputProps {
-  type: 'text' | 'radio' | 'checkbox' | 'submit' | 'reset'
+  type: 'radio' | 'checkbox'
   name?: string
   value?: string
   checked?: boolean
+  id: string
+  label?: string
   onChange?: (event: React.ChangeEvent<HTMLInputElement>) => void
 }
 
 const InputComponent: React.FC<InputProps> = ({
   type,
   name,
+  id,
   value,
-  checked,
   onChange,
 }) => {
-  if (type === 'radio' || type === 'checkbox') {
+  if (type === 'radio') {
     return (
-      <input
+      <InputComponentTs
         type={type}
+        id={id}
         name={name}
         value={value}
-        checked={checked}
         onChange={onChange}
       />
     )
   } else {
-    return <input type={type} name={name} value={value} onChange={onChange} />
+    return (
+      <InputComponentTs
+        type={type}
+        name={name}
+        value={value}
+        onChange={onChange}
+      />
+    )
   }
 }
 

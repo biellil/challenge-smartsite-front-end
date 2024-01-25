@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const HeaderContainer = styled.header`
-  height: 100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
 `
@@ -17,9 +17,7 @@ export const LogoContainer = styled.div`
     width: 15%;
   }
 `
-export const Titlediv = styled.div`
-  padding: 5rem 7rem 0 7rem;
-`
+export const Titlediv = styled.div``
 export const Title = styled.h1`
   font-weight: bold;
   font-size: 3.5rem;

@@ -17,6 +17,8 @@ body {
     padding: 0;
     box-sizing: border-box;
     outline: none;
+    border: none;
+    
  
   
   }
@@ -48,7 +50,7 @@ body {
     font-style: normal;
 }
 html{
-    font-size: 99%;
+    font-size: 100%;
 }
 @media (max-width: 600px) {
     html {

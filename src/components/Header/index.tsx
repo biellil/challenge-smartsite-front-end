@@ -15,7 +15,7 @@ export function Header() {
       <LogoContainer>
         <img src={logo} alt="Smart Fit Logo" />
       </LogoContainer>
-      <Titlediv>
+      <Titlediv className="container">
         <Title>REABERTURA</Title>
         <Subtitle>
           <h2>SMART FIT</h2>
