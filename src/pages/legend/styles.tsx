@@ -31,7 +31,7 @@ export const LegendContainer = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
+
     p {
       font-size: 1rem;
       font-weight: normal;
