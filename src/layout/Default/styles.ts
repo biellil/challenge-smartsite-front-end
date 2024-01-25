@@ -8,8 +8,8 @@ export const LayoutContainer = styled.div`
   .container {
     width: 100%;
     max-width: 70rem;
-    margin-right: auto;
-    margin-left: auto;
+    margin-right: 1rem;
+    margin-left: 1rem;
     padding: 1rem 0.5rem;
     margin-bottom: 1rem;
   }
