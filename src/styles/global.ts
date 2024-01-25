@@ -9,7 +9,7 @@ export const GlobalStyle = createGlobalStyle`
     --green: #2FC022;
 }
 body {
-    font-family: 'Gotham', sans-serif;
+    font-family: 'Gotham';
 }
 * 
 {

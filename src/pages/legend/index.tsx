@@ -7,34 +7,62 @@ import Toalha2 from '../../assets/images/recommended-towel.png'
 import Vestiários1 from '../../assets/images/required-lockerroom.png'
 import Mascara1 from '../../assets/images/required-mask.png'
 import Toalha1 from '../../assets/images/required-towel.png'
+import { LegendContainer, LegendContainer3x1, Sectionlegend } from './styles'
 
 export function Legend() {
   return (
-    <section className="container">
-      <div>
+    <Sectionlegend className="container">
+      <LegendContainer>
         <p>Máscara</p>
-        <img src={Mascara1} alt="" />
-        <img src={Mascara2} alt="" />
-      </div>
+        <div>
+          <img src={Mascara1} alt="Mascara Obrigatório" />
+          <p>Obrigatório</p>
+        </div>
+        <div>
+          <img src={Mascara2} alt=" Mascara Recomendado" />
+          <p>Recomendado</p>
+        </div>
+      </LegendContainer>
 
-      <div>
+      <LegendContainer>
         <p>Toalha</p>
-        <img src={Toalha1} alt="" />
-        <img src={Toalha2} alt="" />
-      </div>
+        <div>
+          <img src={Toalha1} alt="" />
+          <p>Obrigatório</p>
+        </div>
+        <div>
+          <img src={Toalha2} alt="" />
+          <p>Recomendado</p>
+        </div>
+      </LegendContainer>
 
-      <div>
+      <LegendContainer>
         <p>Bebedouro</p>
-        <img src={Bebedouro1} alt="" />
-        <img src={Bebedouro2} alt="" />
-      </div>
+        <div>
+          <img src={Bebedouro1} alt="" />
+          <p>Parcial</p>
+        </div>
+        <div>
+          <img src={Bebedouro2} alt="" />
+          <p>Proibido</p>
+        </div>
+      </LegendContainer>
 
-      <div>
+      <LegendContainer3x1>
         <p>Vestiários</p>
-        <img src={Vestiários1} alt="" />
-        <img src={Vestiários2} alt="" />
-        <img src={Vestiários3} alt="" />
-      </div>
-    </section>
+        <div>
+          <img src={Vestiários1} alt="" />
+          <p>Liberado</p>
+        </div>
+        <div>
+          <img src={Vestiários2} alt="" />
+          <p>Parcial</p>
+        </div>
+        <div>
+          <img src={Vestiários3} alt="" />
+          <p>Fechado</p>
+        </div>
+      </LegendContainer3x1>
+    </Sectionlegend>
   )
 }
