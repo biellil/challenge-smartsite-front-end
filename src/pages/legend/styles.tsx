@@ -12,6 +12,9 @@ export const Sectionlegend = styled.section`
     width: 50%;
     height: 45%;
   }
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 `
 export const LegendContainer = styled.div`
   display: grid;

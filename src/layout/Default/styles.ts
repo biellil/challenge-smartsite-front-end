@@ -13,9 +13,9 @@ export const LayoutContainer = styled.div`
     padding: 1rem 0.5rem;
     margin-bottom: 1rem;
   }
-  @media (max-width: 600px) {
+  @media (max-width: 768px) {
     .container {
-      width: 98%;
+      width: 90%;
       max-width: 68rem;
     }
   }
