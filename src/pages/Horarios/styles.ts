@@ -17,6 +17,10 @@ export const SectionContainer = styled.section`
     line-height: 1.5;
     margin: 0rem 1rem;
   }
+  input {
+    width: 1.2rem;
+    height: 1.2rem;
+  }
 `
 export const Heroicon = styled.div`
   display: flex;

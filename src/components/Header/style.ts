@@ -40,7 +40,8 @@ export const BorderContainer = styled.div`
   margin-top: -25px;
 `
 export const Text3 = styled.h3`
-  font-weight: normal;
-  font-size: 1rem;
-  color: var(--light-grey);
+  font-weight: 300;
+  font-size: 1.45rem;
+  color: var(--dark-grey);
+  max-width: 99%;
 `
