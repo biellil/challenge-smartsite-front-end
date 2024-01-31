@@ -11,11 +11,20 @@
         "src": "https://scontent.frec30-1.fna.fbcdn.net/v/t39.30808-1/370286420_719263263573586_5852064656480618895_n.png?stp=dst-png_p200x200&_nc_cat=1&ccb=1-7&_nc_sid=596444&_nc_ohc=F6w5RlMQ7IEAX872_JZ&_nc_ht=scontent.frec30-1.fna&oh=00_AfDYc7x2eUnGzDTuDUhNeS5P54YpL5smYb-ApQLN4VFr2A&oe=65BDC4A5",
         "sizes": "512x512",
         "type": "image/png"
+      },
+      {
+        "src": "https://scontent.frec30-1.fna.fbcdn.net/v/t39.30808-1/370286420_719263263573586_5852064656480618895_n.png?stp=dst-png_p200x200&_nc_cat=1&ccb=1-7&_nc_sid=596444&_nc_ohc=F6w5RlMQ7IEAX872_JZ&_nc_ht=scontent.frec30-1.fna&oh=00_AfDYc7x2eUnGzDTuDUhNeS5P54YpL5smYb-ApQLN4VFr2A&oe=65BDC4A5",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "maskable"
       }
     ],
     "start_url": "/",
     "display": "standalone",
     "theme_color": "#000000",
     "background_color": "#ffffff"
+   
+     
+    
   }
   
