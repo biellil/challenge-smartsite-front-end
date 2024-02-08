@@ -77,7 +77,7 @@ export const LabelRadio = styled.label`
     }
   }
 `
-export const Labelcheckbox = styled.label`
+export const LabelCheckbox = styled.label`
   display: flex;
   align-items: center;
   justify-content: space-between;

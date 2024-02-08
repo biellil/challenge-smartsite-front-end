@@ -1,5 +1,6 @@
 import { zodResolver } from '@hookform/resolvers/zod'
 import { useForm } from 'react-hook-form'
+import { useNavigate } from 'react-router-dom'
 import { z } from 'zod'
 import iconTime from '../../assets/images/icon-hour.png'
 import {
@@ -7,8 +8,8 @@ import {
   Button2,
   FormContainer,
   Heroicon,
+  LabelCheckbox,
   LabelRadio,
-  Labelcheckbox,
   SectionContainer,
   SelectButton,
 } from './styles'
@@ -23,6 +24,7 @@ const formSchema = z.object({
 type FormData = z.infer<typeof formSchema>
 
 export function Horarios() {
+  const navigate = useNavigate()
   const {
     register,
     handleSubmit,
@@ -34,8 +36,8 @@ export function Horarios() {
 
   function createHandleSubmit(data: FormData) {
     console.log(data)
+    navigate(`?filter=${data.período}`)
   }
-
   return (
     <SectionContainer className="container">
       <Heroicon>
@@ -83,7 +85,7 @@ export function Horarios() {
           <span>18:01 às 23:00</span>
         </LabelRadio>
 
-        <Labelcheckbox>
+        <LabelCheckbox>
           <div>
             <input
               type="checkbox"
@@ -93,7 +95,7 @@ export function Horarios() {
             <span>Exibir unidades fechadas</span>
           </div>
           <span>Encontrar unidade :0</span>
-        </Labelcheckbox>
+        </LabelCheckbox>
 
         <SelectButton>
           {errors.período && <p>{errors.período.message}</p>}
