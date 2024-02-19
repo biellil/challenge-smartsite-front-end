@@ -101,7 +101,13 @@ export function Horarios() {
           {errors.período && <p>{errors.período.message}</p>}
           <div>
             <Button1 type="submit">ENCONTRAR UNIDADE</Button1>
-            <Button2 type="reset" onClick={() => reset()}>
+            <Button2
+              type="reset"
+              onClick={() => {
+                reset()
+                navigate('/')
+              }}
+            >
               LIMPAR
             </Button2>
           </div>
